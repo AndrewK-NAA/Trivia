@@ -1,0 +1,74 @@
+        h1 {
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 7.5vw;
+            text-align: center;
+            top: 0;
+            width: 100%
+        }
+        
+        header {
+            background-image: url("/images/q.JPG");
+            background-size: cover;
+            width: 100%;
+            min-height: 100px;
+            background-repeat: no-repeat;
+            padding: 10px;
+            transition: 0.2s;
+            position: sticky;
+            top: 0;
+        }
+        
+        #bod {
+            background-color: whitesmoke;
+        }
+        
+        p {
+            background-color: rgb(224, 234, 240);
+            margin: 20px;
+        }
+        
+        #Cat {
+            background-color: rgb(161, 170, 175);
+            display: block;
+            margin: 20px;
+        }
+        
+        .inklt {
+            background: transparent;
+            border-radius: 25px;
+            height: 39px;
+            width: 100px;
+            background-image: url("/images/lt40.png");
+            background-repeat: no-repeat;
+            background-position: 2px -2px;
+            background-size: contain;
+            font-size: 0px;
+        }
+        
+        .ink {
+            background: transparent;
+            border-radius: 25px;
+            height: 39px;
+            width: 100px;
+            background-image: url("/images/ab40.png");
+            background-repeat: no-repeat;
+            background-position: 2px -2px;
+            background-size: contain;
+            font-size: 0px;
+            margin-bottom: 10px;
+            text-indent: 10px;
+        }
+        
+        .ink-hide {
+            background: transparent;
+            background-image: none;
+            background-position: 2px -2px;
+            background-size: contain;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        
+        .ink-show {
+            margin-bottom: 10px;
+        }
